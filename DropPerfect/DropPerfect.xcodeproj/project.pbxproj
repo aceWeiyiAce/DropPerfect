@@ -10,7 +10,6 @@
 		18E1882E1A837605002498C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E1882D1A837605002498C6 /* main.m */; };
 		18E188311A837605002498C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E188301A837605002498C6 /* AppDelegate.m */; };
 		18E188341A837605002498C6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E188331A837605002498C6 /* ViewController.m */; };
-		18E188371A837605002498C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E188351A837605002498C6 /* Main.storyboard */; };
 		18E188391A837605002498C6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18E188381A837605002498C6 /* Images.xcassets */; };
 		18E1883C1A837605002498C6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18E1883A1A837605002498C6 /* LaunchScreen.xib */; };
 		18E188481A837605002498C6 /* DropPerfectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E188471A837605002498C6 /* DropPerfectTests.m */; };
@@ -34,7 +33,6 @@
 		18E188301A837605002498C6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		18E188321A837605002498C6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		18E188331A837605002498C6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		18E188361A837605002498C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18E188381A837605002498C6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		18E1883B1A837605002498C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		18E188411A837605002498C6 /* DropPerfectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DropPerfectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -85,7 +83,6 @@
 				18E188301A837605002498C6 /* AppDelegate.m */,
 				18E188321A837605002498C6 /* ViewController.h */,
 				18E188331A837605002498C6 /* ViewController.m */,
-				18E188351A837605002498C6 /* Main.storyboard */,
 				18E188381A837605002498C6 /* Images.xcassets */,
 				18E1883A1A837605002498C6 /* LaunchScreen.xib */,
 				18E1882B1A837605002498C6 /* Supporting Files */,
@@ -199,7 +196,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18E188371A837605002498C6 /* Main.storyboard in Resources */,
 				18E1883C1A837605002498C6 /* LaunchScreen.xib in Resources */,
 				18E188391A837605002498C6 /* Images.xcassets in Resources */,
 			);
@@ -244,14 +240,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		18E188351A837605002498C6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				18E188361A837605002498C6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		18E1883A1A837605002498C6 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
