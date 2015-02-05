@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "OAuthViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,7 +17,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    
+    OAuthViewController *vc = [[OAuthViewController alloc] init];
+    self.window.rootViewController = vc;
     [self.window makeKeyAndVisible];
     return YES;
 }

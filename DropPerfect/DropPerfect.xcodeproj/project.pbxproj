@@ -12,7 +12,7 @@
 		18E1883C1A837605002498C6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18E1883A1A837605002498C6 /* LaunchScreen.xib */; };
 		18E188481A837605002498C6 /* DropPerfectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E188471A837605002498C6 /* DropPerfectTests.m */; };
 		18E188541A838149002498C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E188531A838149002498C6 /* AppDelegate.m */; };
-		18E188581A838162002498C6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E188571A838162002498C6 /* ViewController.m */; };
+		18E188581A838162002498C6 /* OAuthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E188571A838162002498C6 /* OAuthViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +36,8 @@
 		18E188471A837605002498C6 /* DropPerfectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DropPerfectTests.m; sourceTree = "<group>"; };
 		18E188521A838149002498C6 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18E188531A838149002498C6 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		18E188561A838162002498C6 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		18E188571A838162002498C6 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18E188561A838162002498C6 /* OAuthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAuthViewController.h; sourceTree = "<group>"; };
+		18E188571A838162002498C6 /* OAuthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAuthViewController.m; sourceTree = "<group>"; };
 		18E188591A8381A8002498C6 /* DropPerfect-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DropPerfect-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -130,8 +130,8 @@
 		18E188551A838162002498C6 /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				18E188561A838162002498C6 /* ViewController.h */,
-				18E188571A838162002498C6 /* ViewController.m */,
+				18E188561A838162002498C6 /* OAuthViewController.h */,
+				18E188571A838162002498C6 /* OAuthViewController.m */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -250,7 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18E188541A838149002498C6 /* AppDelegate.m in Sources */,
-				18E188581A838162002498C6 /* ViewController.m in Sources */,
+				18E188581A838162002498C6 /* OAuthViewController.m in Sources */,
 				18E1882E1A837605002498C6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
