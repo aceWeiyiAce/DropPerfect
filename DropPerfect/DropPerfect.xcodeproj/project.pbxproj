@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		18E1882E1A837605002498C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E1882D1A837605002498C6 /* main.m */; };
-		18E188311A837605002498C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E188301A837605002498C6 /* AppDelegate.m */; };
-		18E188341A837605002498C6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E188331A837605002498C6 /* ViewController.m */; };
 		18E188391A837605002498C6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18E188381A837605002498C6 /* Images.xcassets */; };
 		18E1883C1A837605002498C6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18E1883A1A837605002498C6 /* LaunchScreen.xib */; };
 		18E188481A837605002498C6 /* DropPerfectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E188471A837605002498C6 /* DropPerfectTests.m */; };
+		18E188541A838149002498C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E188531A838149002498C6 /* AppDelegate.m */; };
+		18E188581A838162002498C6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E188571A838162002498C6 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,15 +29,16 @@
 		18E188281A837605002498C6 /* DropPerfect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DropPerfect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E1882C1A837605002498C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18E1882D1A837605002498C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		18E1882F1A837605002498C6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		18E188301A837605002498C6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		18E188321A837605002498C6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		18E188331A837605002498C6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		18E188381A837605002498C6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		18E1883B1A837605002498C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		18E188411A837605002498C6 /* DropPerfectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DropPerfectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E188461A837605002498C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18E188471A837605002498C6 /* DropPerfectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DropPerfectTests.m; sourceTree = "<group>"; };
+		18E188521A838149002498C6 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18E188531A838149002498C6 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18E188561A838162002498C6 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18E188571A838162002498C6 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18E188591A8381A8002498C6 /* DropPerfect-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DropPerfect-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,10 +80,10 @@
 		18E1882A1A837605002498C6 /* DropPerfect */ = {
 			isa = PBXGroup;
 			children = (
-				18E1882F1A837605002498C6 /* AppDelegate.h */,
-				18E188301A837605002498C6 /* AppDelegate.m */,
-				18E188321A837605002498C6 /* ViewController.h */,
-				18E188331A837605002498C6 /* ViewController.m */,
+				18E188511A838149002498C6 /* Appdelegate */,
+				18E188551A838162002498C6 /* Main */,
+				18E1885A1A8381E5002498C6 /* Home(首页) */,
+				18E1885B1A8381E5002498C6 /* OAuth */,
 				18E188381A837605002498C6 /* Images.xcassets */,
 				18E1883A1A837605002498C6 /* LaunchScreen.xib */,
 				18E1882B1A837605002498C6 /* Supporting Files */,
@@ -93,6 +94,7 @@
 		18E1882B1A837605002498C6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				18E188591A8381A8002498C6 /* DropPerfect-Prefix.pch */,
 				18E1882C1A837605002498C6 /* Info.plist */,
 				18E1882D1A837605002498C6 /* main.m */,
 			);
@@ -114,6 +116,38 @@
 				18E188461A837605002498C6 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18E188511A838149002498C6 /* Appdelegate */ = {
+			isa = PBXGroup;
+			children = (
+				18E188521A838149002498C6 /* AppDelegate.h */,
+				18E188531A838149002498C6 /* AppDelegate.m */,
+			);
+			path = Appdelegate;
+			sourceTree = "<group>";
+		};
+		18E188551A838162002498C6 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				18E188561A838162002498C6 /* ViewController.h */,
+				18E188571A838162002498C6 /* ViewController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		18E1885A1A8381E5002498C6 /* Home(首页) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Home(首页)";
+			sourceTree = "<group>";
+		};
+		18E1885B1A8381E5002498C6 /* OAuth */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = OAuth;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,8 +249,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18E188341A837605002498C6 /* ViewController.m in Sources */,
-				18E188311A837605002498C6 /* AppDelegate.m in Sources */,
+				18E188541A838149002498C6 /* AppDelegate.m in Sources */,
+				18E188581A838162002498C6 /* ViewController.m in Sources */,
 				18E1882E1A837605002498C6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -400,6 +434,7 @@
 				18E1884D1A837605002498C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18E1884E1A837605002498C6 /* Build configuration list for PBXNativeTarget "DropPerfectTests" */ = {
 			isa = XCConfigurationList;
@@ -408,6 +443,7 @@
 				18E188501A837605002498C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

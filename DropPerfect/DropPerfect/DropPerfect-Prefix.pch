@@ -1,0 +1,57 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#define iOS7 ([[UIDevice currentDevice].systemVersion doubleValue] >= 7.0)
+
+
+// 快速生成颜色
+#define WYCustomColor(r , g, b, a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0  blue:(b)/255.0  alpha:(a)/255.0 ]
+
+// 随机色
+#define  WYRandomColor   WYCustomColor(arc4random_uniform(255), arc4random_uniform(255), arc4random_uniform(255), arc4random_uniform(255))
+//#import "UIImage+WY.h"
+//#import "UIView+WY.h"
+//#import "UIBarButtonItem+WY.h"
+
+// 自定义Log
+// 应用程序处于调试阶段时系统会自动给我们定义一个名称叫做DEBUG的宏
+// 应用程序发布的时候, 系统会自动去除名称叫做DEBUG的宏
+#ifdef DEBUG  // 判断是否有DEBUG的宏, 如果有就编译下面一句, 如果没有就编译#else后面的一句
+#define WYLog(...)  NSLog(__VA_ARGS__)
+#else
+#define WYLog(...)
+#endif
+
+#define FourInch (568.0 == [UIScreen mainScreen].bounds.size.height)
+
+
+// 间隙
+#define WYCellPadding 10
+// 昵称
+#define WYCellNameFont [UIFont systemFontOfSize:15]
+// 时间
+#define WYCellTimeFont [UIFont systemFontOfSize:13]
+// 来源
+#define WYCellSourceFont WYCellTimeFont
+// 正文
+#define WYCellContentFont [UIFont systemFontOfSize:16]
+// 屏宽
+#define WYScreenWidth [UIScreen mainScreen].bounds.size.width
+
+// 配图的宽高
+#define WYPhotoWidth 70
+#define WYPhotoHeight WYPhotoWidth
+#define WYPhotoMargin 10 // 间隙
+#endif
