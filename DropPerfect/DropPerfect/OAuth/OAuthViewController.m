@@ -8,6 +8,8 @@
 
 #import "OAuthViewController.h"
 #import "AFNetworking.h"
+#import "UserAccount.h"
+#import "AccountTool.h"
 @interface OAuthViewController ()<UIWebViewDelegate>
 @property (nonatomic, strong) UIWebView *webView;
 @end
@@ -72,13 +74,15 @@
     param[@"redirect_uri"] = @"http://www.baidu.com";
     [manger POST:url parameters:param success:^(AFHTTPRequestOperation *operation, id responseObject) {
         NSLog(@"%@", responseObject);
+        UserAccount *account = [UserAccount initWithDict:responseObject];
+        [AccountTool saveAccount:account];
         /*
-            responseObject = {
+        responseObject = {
          
-         "access_token" = "2.00ppehlFyqnnZC23bd13d39bjpaeVD";
-         "expires_in" = 108658;
-         "remind_in" = 108658;
-         uid = 5285557029;
+            "access_token" = "2.00ppehlFyqnnZC23bd13d39bjpaeVD";
+            "expires_in" = 108658;
+            "remind_in" = 108658;
+            uid = 5285557029;
          
          }
          */

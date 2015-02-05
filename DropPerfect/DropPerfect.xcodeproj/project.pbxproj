@@ -25,7 +25,8 @@
 		18E188811A839B84002498C6 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 18E188741A839B84002498C6 /* MBProgressHUD.bundle */; };
 		18E188821A839B84002498C6 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E188761A839B84002498C6 /* MBProgressHUD.m */; };
 		18E188851A839EBC002498C6 /* OAuthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E188841A839EBC002498C6 /* OAuthViewController.m */; };
-		18E1888A1A839F0F002498C6 /* UserAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E188891A839F0F002498C6 /* UserAccount.m */; };
+		18E1888E1A83A118002498C6 /* UserAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E1888D1A83A118002498C6 /* UserAccount.m */; };
+		18E188911A83A130002498C6 /* AccountTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E188901A83A130002498C6 /* AccountTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,8 +77,10 @@
 		18E188761A839B84002498C6 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		18E188831A839EBC002498C6 /* OAuthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAuthViewController.h; sourceTree = "<group>"; };
 		18E188841A839EBC002498C6 /* OAuthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAuthViewController.m; sourceTree = "<group>"; };
-		18E188881A839F0F002498C6 /* UserAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserAccount.h; sourceTree = "<group>"; };
-		18E188891A839F0F002498C6 /* UserAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserAccount.m; sourceTree = "<group>"; };
+		18E1888C1A83A118002498C6 /* UserAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserAccount.h; sourceTree = "<group>"; };
+		18E1888D1A83A118002498C6 /* UserAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserAccount.m; sourceTree = "<group>"; };
+		18E1888F1A83A130002498C6 /* AccountTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountTool.h; sourceTree = "<group>"; };
+		18E188901A83A130002498C6 /* AccountTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,6 +187,7 @@
 		18E1885B1A8381E5002498C6 /* OAuth */ = {
 			isa = PBXGroup;
 			children = (
+				18E1888B1A83A118002498C6 /* Model */,
 				18E188861A839EED002498C6 /* AccountTool */,
 				18E188831A839EBC002498C6 /* OAuthViewController.h */,
 				18E188841A839EBC002498C6 /* OAuthViewController.m */,
@@ -241,16 +245,17 @@
 		18E188861A839EED002498C6 /* AccountTool */ = {
 			isa = PBXGroup;
 			children = (
-				18E188871A839EED002498C6 /* Model */,
+				18E1888F1A83A130002498C6 /* AccountTool.h */,
+				18E188901A83A130002498C6 /* AccountTool.m */,
 			);
 			path = AccountTool;
 			sourceTree = "<group>";
 		};
-		18E188871A839EED002498C6 /* Model */ = {
+		18E1888B1A83A118002498C6 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				18E188881A839F0F002498C6 /* UserAccount.h */,
-				18E188891A839F0F002498C6 /* UserAccount.m */,
+				18E1888C1A83A118002498C6 /* UserAccount.h */,
+				18E1888D1A83A118002498C6 /* UserAccount.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -358,6 +363,7 @@
 				18E188771A839B84002498C6 /* AFHTTPRequestOperation.m in Sources */,
 				18E188541A838149002498C6 /* AppDelegate.m in Sources */,
 				18E188781A839B84002498C6 /* AFHTTPRequestOperationManager.m in Sources */,
+				18E188911A83A130002498C6 /* AccountTool.m in Sources */,
 				18E1887A1A839B84002498C6 /* AFNetworkReachabilityManager.m in Sources */,
 				18E1887E1A839B84002498C6 /* AFURLResponseSerialization.m in Sources */,
 				18E188801A839B84002498C6 /* MBProgressHUD+NJ.m in Sources */,
@@ -368,7 +374,7 @@
 				18E1887D1A839B84002498C6 /* AFURLRequestSerialization.m in Sources */,
 				18E1887F1A839B84002498C6 /* AFURLSessionManager.m in Sources */,
 				18E1882E1A837605002498C6 /* main.m in Sources */,
-				18E1888A1A839F0F002498C6 /* UserAccount.m in Sources */,
+				18E1888E1A83A118002498C6 /* UserAccount.m in Sources */,
 				18E188821A839B84002498C6 /* MBProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
