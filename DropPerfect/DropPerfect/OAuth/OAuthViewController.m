@@ -10,6 +10,7 @@
 #import "AFNetworking.h"
 #import "UserAccount.h"
 #import "AccountTool.h"
+#import "HomeViewController.h"
 @interface OAuthViewController ()<UIWebViewDelegate>
 @property (nonatomic, strong) UIWebView *webView;
 @end
@@ -86,6 +87,9 @@
          
          }
          */
+        HomeViewController *vc = [[HomeViewController alloc] init];
+        UIWindow *window = [UIApplication sharedApplication].keyWindow;
+        window.rootViewController = vc;
     } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
         NSLog(@"%@", error);
     }];

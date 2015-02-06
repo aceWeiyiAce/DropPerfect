@@ -22,7 +22,7 @@
 // 随机色
 #define  WYRandomColor   WYCustomColor(arc4random_uniform(255), arc4random_uniform(255), arc4random_uniform(255), arc4random_uniform(255))
 //#import "UIImage+WY.h"
-//#import "UIView+WY.h"
+#import "UIView+WY.h"
 //#import "UIBarButtonItem+WY.h"
 
 // 自定义Log

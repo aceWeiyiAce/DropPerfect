@@ -7,8 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		18347B961A84557200B3A18D /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18347B941A84557200B3A18D /* HomeViewController.m */; };
-		18347B971A84557200B3A18D /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18347B951A84557200B3A18D /* HomeViewController.xib */; };
+		18347B9E1A845A0F00B3A18D /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18347B9C1A845A0F00B3A18D /* HomeViewController.m */; };
+		18347B9F1A845A0F00B3A18D /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18347B9D1A845A0F00B3A18D /* HomeViewController.xib */; };
+		18347BA51A845A5E00B3A18D /* HomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18347BA31A845A5E00B3A18D /* HomeCell.m */; };
+		18347BA61A845A5E00B3A18D /* HomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18347BA41A845A5E00B3A18D /* HomeCell.xib */; };
+		18347BAA1A845B0300B3A18D /* UIView+WY.m in Sources */ = {isa = PBXBuildFile; fileRef = 18347BA91A845B0300B3A18D /* UIView+WY.m */; };
+		18347BAD1A845D5500B3A18D /* WYStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 18347BAC1A845D5500B3A18D /* WYStatus.m */; };
+		18347BB01A8461C400B3A18D /* WYUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 18347BAF1A8461C400B3A18D /* WYUser.m */; };
 		18E1882E1A837605002498C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E1882D1A837605002498C6 /* main.m */; };
 		18E188391A837605002498C6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18E188381A837605002498C6 /* Images.xcassets */; };
 		18E1883C1A837605002498C6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18E1883A1A837605002498C6 /* LaunchScreen.xib */; };
@@ -42,9 +47,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		18347B931A84557200B3A18D /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
-		18347B941A84557200B3A18D /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
-		18347B951A84557200B3A18D /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		18347B9B1A845A0F00B3A18D /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		18347B9C1A845A0F00B3A18D /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		18347B9D1A845A0F00B3A18D /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		18347BA21A845A5E00B3A18D /* HomeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeCell.h; sourceTree = "<group>"; };
+		18347BA31A845A5E00B3A18D /* HomeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeCell.m; sourceTree = "<group>"; };
+		18347BA41A845A5E00B3A18D /* HomeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeCell.xib; sourceTree = "<group>"; };
+		18347BA81A845B0300B3A18D /* UIView+WY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WY.h"; sourceTree = "<group>"; };
+		18347BA91A845B0300B3A18D /* UIView+WY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WY.m"; sourceTree = "<group>"; };
+		18347BAB1A845D5500B3A18D /* WYStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYStatus.h; sourceTree = "<group>"; };
+		18347BAC1A845D5500B3A18D /* WYStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYStatus.m; sourceTree = "<group>"; };
+		18347BAE1A8461C400B3A18D /* WYUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYUser.h; sourceTree = "<group>"; };
+		18347BAF1A8461C400B3A18D /* WYUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYUser.m; sourceTree = "<group>"; };
+		18347BB11A8462DA00B3A18D /* HomeData(json).h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HomeData(json).h"; sourceTree = "<group>"; };
 		18E188281A837605002498C6 /* DropPerfect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DropPerfect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E1882C1A837605002498C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18E1882D1A837605002498C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -106,6 +121,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18347B991A845A0F00B3A18D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				18347B9B1A845A0F00B3A18D /* HomeViewController.h */,
+				18347B9C1A845A0F00B3A18D /* HomeViewController.m */,
+				18347B9D1A845A0F00B3A18D /* HomeViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		18347BA01A845A3300B3A18D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				18347BB11A8462DA00B3A18D /* HomeData(json).h */,
+				18347BAB1A845D5500B3A18D /* WYStatus.h */,
+				18347BAC1A845D5500B3A18D /* WYStatus.m */,
+				18347BAE1A8461C400B3A18D /* WYUser.h */,
+				18347BAF1A8461C400B3A18D /* WYUser.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18347BA11A845A3300B3A18D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				18347BA21A845A5E00B3A18D /* HomeCell.h */,
+				18347BA31A845A5E00B3A18D /* HomeCell.m */,
+				18347BA41A845A5E00B3A18D /* HomeCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		18347BA71A845B0300B3A18D /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				18347BA81A845B0300B3A18D /* UIView+WY.h */,
+				18347BA91A845B0300B3A18D /* UIView+WY.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
 		18E1881F1A837605002498C6 = {
 			isa = PBXGroup;
 			children = (
@@ -177,6 +233,7 @@
 		18E188551A838162002498C6 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				18347BA71A845B0300B3A18D /* Tool */,
 				18E1885C1A839B84002498C6 /* Lib */,
 			);
 			path = Main;
@@ -185,9 +242,9 @@
 		18E1885A1A8381E5002498C6 /* Home(首页) */ = {
 			isa = PBXGroup;
 			children = (
-				18347B931A84557200B3A18D /* HomeViewController.h */,
-				18347B941A84557200B3A18D /* HomeViewController.m */,
-				18347B951A84557200B3A18D /* HomeViewController.xib */,
+				18347B991A845A0F00B3A18D /* Controller */,
+				18347BA01A845A3300B3A18D /* Model */,
+				18347BA11A845A3300B3A18D /* View */,
 			);
 			path = "Home(首页)";
 			sourceTree = "<group>";
@@ -350,8 +407,9 @@
 			files = (
 				18E1883C1A837605002498C6 /* LaunchScreen.xib in Resources */,
 				18E188391A837605002498C6 /* Images.xcassets in Resources */,
+				18347B9F1A845A0F00B3A18D /* HomeViewController.xib in Resources */,
 				18E188811A839B84002498C6 /* MBProgressHUD.bundle in Resources */,
-				18347B971A84557200B3A18D /* HomeViewController.xib in Resources */,
+				18347BA61A845A5E00B3A18D /* HomeCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,19 +431,23 @@
 				18E188541A838149002498C6 /* AppDelegate.m in Sources */,
 				18E188781A839B84002498C6 /* AFHTTPRequestOperationManager.m in Sources */,
 				18E188911A83A130002498C6 /* AccountTool.m in Sources */,
+				18347BB01A8461C400B3A18D /* WYUser.m in Sources */,
 				18E1887A1A839B84002498C6 /* AFNetworkReachabilityManager.m in Sources */,
+				18347B9E1A845A0F00B3A18D /* HomeViewController.m in Sources */,
 				18E1887E1A839B84002498C6 /* AFURLResponseSerialization.m in Sources */,
 				18E188801A839B84002498C6 /* MBProgressHUD+NJ.m in Sources */,
 				18E1887C1A839B84002498C6 /* AFURLConnectionOperation.m in Sources */,
-				18347B961A84557200B3A18D /* HomeViewController.m in Sources */,
+				18347BAD1A845D5500B3A18D /* WYStatus.m in Sources */,
 				18E1887B1A839B84002498C6 /* AFSecurityPolicy.m in Sources */,
 				18E188791A839B84002498C6 /* AFHTTPSessionManager.m in Sources */,
 				18E188851A839EBC002498C6 /* OAuthViewController.m in Sources */,
+				18347BA51A845A5E00B3A18D /* HomeCell.m in Sources */,
 				18E1887D1A839B84002498C6 /* AFURLRequestSerialization.m in Sources */,
 				18E1887F1A839B84002498C6 /* AFURLSessionManager.m in Sources */,
 				18E1882E1A837605002498C6 /* main.m in Sources */,
 				18E1888E1A83A118002498C6 /* UserAccount.m in Sources */,
 				18E188821A839B84002498C6 /* MBProgressHUD.m in Sources */,
+				18347BAA1A845B0300B3A18D /* UIView+WY.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
