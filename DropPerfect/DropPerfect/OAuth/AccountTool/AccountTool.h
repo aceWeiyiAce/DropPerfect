@@ -7,9 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+
 @class UserAccount;
 @interface AccountTool : NSObject
-- (void)saveAccount:(UserAccount *)account;
++ (BOOL)saveAccount:(UserAccount *)account;
 
-+ (void)saveAccount:(UserAccount *)account;
++ (UserAccount *)getAccount;
 @end

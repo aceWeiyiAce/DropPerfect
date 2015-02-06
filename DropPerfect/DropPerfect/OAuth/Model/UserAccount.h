@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface UserAccount : NSObject
+@interface UserAccount : NSObject<NSCoding>
 /*
     "access_token" = "2.00ppehlFyqnnZC23bd13d39bjpaeVD";
     "expires_in" = 108658;

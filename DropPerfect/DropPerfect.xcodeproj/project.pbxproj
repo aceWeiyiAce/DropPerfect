@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18347B961A84557200B3A18D /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18347B941A84557200B3A18D /* HomeViewController.m */; };
+		18347B971A84557200B3A18D /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18347B951A84557200B3A18D /* HomeViewController.xib */; };
 		18E1882E1A837605002498C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E1882D1A837605002498C6 /* main.m */; };
 		18E188391A837605002498C6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18E188381A837605002498C6 /* Images.xcassets */; };
 		18E1883C1A837605002498C6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18E1883A1A837605002498C6 /* LaunchScreen.xib */; };
@@ -40,6 +42,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18347B931A84557200B3A18D /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		18347B941A84557200B3A18D /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		18347B951A84557200B3A18D /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		18E188281A837605002498C6 /* DropPerfect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DropPerfect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E1882C1A837605002498C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18E1882D1A837605002498C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -180,6 +185,9 @@
 		18E1885A1A8381E5002498C6 /* Home(首页) */ = {
 			isa = PBXGroup;
 			children = (
+				18347B931A84557200B3A18D /* HomeViewController.h */,
+				18347B941A84557200B3A18D /* HomeViewController.m */,
+				18347B951A84557200B3A18D /* HomeViewController.xib */,
 			);
 			path = "Home(首页)";
 			sourceTree = "<group>";
@@ -343,6 +351,7 @@
 				18E1883C1A837605002498C6 /* LaunchScreen.xib in Resources */,
 				18E188391A837605002498C6 /* Images.xcassets in Resources */,
 				18E188811A839B84002498C6 /* MBProgressHUD.bundle in Resources */,
+				18347B971A84557200B3A18D /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,6 +377,7 @@
 				18E1887E1A839B84002498C6 /* AFURLResponseSerialization.m in Sources */,
 				18E188801A839B84002498C6 /* MBProgressHUD+NJ.m in Sources */,
 				18E1887C1A839B84002498C6 /* AFURLConnectionOperation.m in Sources */,
+				18347B961A84557200B3A18D /* HomeViewController.m in Sources */,
 				18E1887B1A839B84002498C6 /* AFSecurityPolicy.m in Sources */,
 				18E188791A839B84002498C6 /* AFHTTPSessionManager.m in Sources */,
 				18E188851A839EBC002498C6 /* OAuthViewController.m in Sources */,
