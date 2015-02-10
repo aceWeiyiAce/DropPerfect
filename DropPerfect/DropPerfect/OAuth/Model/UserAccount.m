@@ -15,7 +15,7 @@
     return self;
 }
 
-+ (instancetype)initWithDict:(NSDictionary *)dict{
++ (instancetype)accountWithDict:(NSDictionary *)dict{
     return [[self alloc] initWithDict:dict];
 }
 //归档保存时调用

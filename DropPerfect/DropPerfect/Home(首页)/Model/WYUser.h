@@ -18,5 +18,5 @@
  "profile_image_url" = "http://tp2.sinaimg.cn/3948352701/50/5682433264/0";
  */
 
-@property (nonatomic, n)
+
 @end

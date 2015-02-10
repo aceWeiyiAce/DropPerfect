@@ -35,5 +35,5 @@
 @property (nonatomic, copy) NSString *uid;
 - (instancetype)initWithDict:(NSDictionary *)dict;
 
-+ (instancetype)initWithDict:(NSDictionary *)dict;
++ (instancetype)accountWithDict:(NSDictionary *)dict;
 @end

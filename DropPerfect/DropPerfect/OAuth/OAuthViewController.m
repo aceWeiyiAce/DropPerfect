@@ -75,7 +75,7 @@
     param[@"redirect_uri"] = @"http://www.baidu.com";
     [manger POST:url parameters:param success:^(AFHTTPRequestOperation *operation, id responseObject) {
         NSLog(@"%@", responseObject);
-        UserAccount *account = [UserAccount initWithDict:responseObject];
+        UserAccount *account = [UserAccount accountWithDict:responseObject];
         [AccountTool saveAccount:account];
         /*
         responseObject = {

@@ -11,7 +11,7 @@
 #import "AccountTool.h"
 #import "UserAccount.h"
 @interface HomeViewController ()
-
+@property (nonatomic, strong) NSArray *statuses;
 @end
 
 @implementation HomeViewController
@@ -36,6 +36,8 @@
     NSString *url = @"https://api.weibo.com/2/statuses/home_timeline.json";
     [manager GET:url parameters:param success:^(AFHTTPRequestOperation *operation, id responseObject) {
         NSLog(@"%@", responseObject);
+    
+        self.statuses = responseObject[@"statuses"];
     } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
         NSLog(@"%@", error);
     }];
