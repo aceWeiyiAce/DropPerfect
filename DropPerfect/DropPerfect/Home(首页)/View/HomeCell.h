@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-
+@class WYStatus;
 @interface HomeCell : UITableViewCell
+
+@property (nonatomic, strong) WYStatus *status;
+
 + (instancetype)cellWithTableView:(UITableView *)tableView;
 @end

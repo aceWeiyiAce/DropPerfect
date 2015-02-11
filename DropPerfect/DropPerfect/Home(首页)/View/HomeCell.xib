@@ -14,7 +14,7 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="T8v-Sm-PDH">
-                        <rect key="frame" x="8" y="8" width="42" height="33"/>
+                        <rect key="frame" x="8" y="8" width="45" height="45"/>
                     </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="姓名" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U65-ST-BkC">
                         <rect key="frame" x="67" y="9" width="35" height="11"/>
@@ -50,6 +50,13 @@
                     </view>
                 </subviews>
             </tableViewCellContentView>
+            <connections>
+                <outlet property="contentLabel" destination="Jio-Km-fji" id="Co7-7O-6al"/>
+                <outlet property="icon" destination="T8v-Sm-PDH" id="4Gp-Jo-wLi"/>
+                <outlet property="nameLabel" destination="U65-ST-BkC" id="P0g-Hk-hrU"/>
+                <outlet property="sourceLabel" destination="g0D-uH-6qB" id="69X-Ir-TH0"/>
+                <outlet property="timeLabel" destination="i6C-Or-cLc" id="Ymk-Uu-UFy"/>
+            </connections>
             <point key="canvasLocation" x="279" y="264.5"/>
         </tableViewCell>
     </objects>

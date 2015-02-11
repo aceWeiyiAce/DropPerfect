@@ -10,8 +10,13 @@
 #import "AFNetworking.h"
 #import "AccountTool.h"
 #import "UserAccount.h"
-@interface HomeViewController ()
+#import "HomeCell.h"
+#import "WYStatus.h"
+
+//#import "MJExtension.h"
+@interface HomeViewController ()<UITableViewDataSource, UITableViewDelegate>
 @property (nonatomic, strong) NSArray *statuses;
+@property (weak, nonatomic) IBOutlet UITableView *tbHome;
 @end
 
 @implementation HomeViewController
@@ -23,7 +28,7 @@
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+
 }
 
 - (void)loadData{
@@ -36,12 +41,22 @@
     NSString *url = @"https://api.weibo.com/2/statuses/home_timeline.json";
     [manager GET:url parameters:param success:^(AFHTTPRequestOperation *operation, id responseObject) {
         NSLog(@"%@", responseObject);
-    
-        self.statuses = responseObject[@"statuses"];
+        
+//        self.statuses = [WYStatus objectArrayWithKeyValuesArray:responseObject[@"statuses"]];
+//        [self.tbHome reloadData];
     } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
         NSLog(@"%@", error);
     }];
 
 }
-
+#pragma  mark - tableViewDataSource
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    NSLog(@"%ld", self.statuses.count);
+    return self.statuses.count;
+}
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    HomeCell *cell = [HomeCell cellWithTableView:tableView];
+    cell.status =  [WYStatus statusWithDict:self.statuses[indexPath.row]];
+    return cell;
+}
 @end

@@ -64,5 +64,6 @@
 @property (nonatomic, strong) WYStatus *retweeted_status;
 
 @property (nonatomic, strong) NSArray *pic_urls;
-
+- (instancetype)initWithDict:(NSDictionary *)dict;
++ (instancetype)statusWithDict:(NSDictionary *)dict;
 @end
